@@ -19,3 +19,4 @@
 - https://themes.getbootstrap.com/preview/?theme_id=60718
 - https://themes.getbootstrap.com/preview/?theme_id=4231
 - https://themes.getbootstrap.com/preview/?theme_id=56578
+- https://getbootstrap.com/docs/4.1/examples/pricing/
