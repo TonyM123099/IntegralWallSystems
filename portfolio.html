@@ -16,30 +16,110 @@
         <!-- Custom CSS-->
         <link rel="stylesheet" href="styles/style.css">
 
+        <!-- Import Favicon -->
+        <link rel="icon" type="image/x-icon" href="images/IWS-Logo-Small.ico">
+
         <title>Integral Wall Systems</title>
     </head>
     <body class="bg-dark">
 
         <!-- Navigation Panel -->
-        <header class="navbar navbar-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-top navbar-expand-lg navbar-dark bg-dark fixed-top" id="fixedtop">
             <div class="container" id="navigation">
-                <a class="navbar-brand order-1">integral wall systems</a>
-                <ul class="nav navbar-nav order-2">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">about</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">contact</a>
-                    </li>
-                </ul>
+                <a class="navbar-brand" href="#">
+                    <img src="images/IWS-Logo-Large.png" alt="" height="36">
+                </a>
+
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </header>
+        </nav>
+
+        <!-- Jumbotron -->
+        <div class="jumbotron-fluid bg-dark" id="jumbo">
+            <h1 class="display-1 text-center">portfolio</h1>
+            <p class="lead text-center">work in progress, and completed projects.</p>
+        </div>
+
+        <!-- Debug Paragraphs -->
+        <ul id="debug">
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row border-top" id="foot">
+                <div class="col-6 col-md">
+                    <h5>Integral Wall Systems</h5>
+                    <ul class="list-unstyled text-small">
+                        <li class="text-muted">Copyright Tony Martin/IWS</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Features</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Cool stuff</a></li>
+                        <li><a class="text-muted" href="#">Random feature</a></li>
+                        <li><a class="text-muted" href="#">Team feature</a></li>
+                        <li><a class="text-muted" href="#">Stuff for developers</a></li>
+                        <li><a class="text-muted" href="#">Another one</a></li>
+                        <li><a class="text-muted" href="#">Last time</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Resource</a></li>
+                        <li><a class="text-muted" href="#">Resource name</a></li>
+                        <li><a class="text-muted" href="#">Another resource</a></li>
+                        <li><a class="text-muted" href="#">Final resource</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>About</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Team</a></li>
+                        <li><a class="text-muted" href="#">Locations</a></li>
+                        <li><a class="text-muted" href="#">Privacy</a></li>
+                        <li><a class="text-muted" href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
 
         <!-- Bootstrap JavaScript -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
