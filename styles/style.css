@@ -1,13 +1,15 @@
 body
 {
     font-family: "Inter";
-    color: white;
+    color: black;
+    background-color: #F2F0EB;
 }
 
 #fixedtop {
     margin: 0%;
     padding: 0%;
-    
+    background-color: #A60311;
+    border-bottom: 2px solid black;
 }
 
 #navigation
@@ -19,14 +21,18 @@ body
     padding-bottom: 20px;
 }
 
+button {
+    border-color: black!important;
+}
+
 #jumbo
 {
-    margin-top: 8em;
+    margin-top: 10em;
 }
 
 #title-text
 {
-    font-size: 6vw;
+    font-size: 7vw;
 }
 
 #body-text
@@ -36,10 +42,22 @@ body
 
 #cards
 {
-    margin-top: 10%;
-    padding-left: 20%;
-    padding-right: 20%;
+    margin-top: 8vw;
+    padding-left: 10%;
+    padding-right: 10%;
     color: black;
+}
+
+#cards a {
+    color: #6c757d!important;
+    text-decoration: none;
+    opacity: 75%;
+}
+
+#cards a:hover {
+    color: #A60311!important;
+    text-decoration: none;
+    opacity: 100%;
 }
 
 #debug
@@ -50,15 +68,27 @@ body
 }
 
 footer {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #foot
 {
-    margin-top: 10%;
-    padding-top:2%;
-    padding-bottom: 2%;
+    margin-top: 4vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+footer a {
+    color: #6c757d!important;
+    text-decoration: none;
+    opacity: 100%;
+}
+
+footer a:hover {
+    color: #A60311!important;
+    text-decoration: none;
+    opacity: 100%;
 }
